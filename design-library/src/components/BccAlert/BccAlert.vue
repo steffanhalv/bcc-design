@@ -60,7 +60,9 @@ const contexts = {
       />
 
       <div class="bcc-alert-content">
-        <h3 v-if="title" class="bcc-alert-title">{{ title }}</h3>
+        <h3 v-if="title" class="bcc-alert-title">
+          {{ title }}
+        </h3>
         <p><slot></slot></p>
       </div>
       <button
